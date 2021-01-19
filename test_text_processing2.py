@@ -83,3 +83,4 @@ class TestTextProcessing(unittest.TestCase):
         test_str = "....."
         pred = tp.to_camel_case(test_str)
         self.assertEqual(pred, ".....")
+        
